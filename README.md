@@ -99,7 +99,25 @@ editing the variables at the top of the `<style>` block:
 }
 ```
 
-## File Size
+## Media Demo Deck
 
-The entire app + 10 demo slides: **~50 KB**. No images, fonts, or
-external dependencies of any kind.
+`media-demo.html` is a second presentation demonstrating embedded rich
+media — AI-generated images (Imagen 3) and video (Veo 3.1) encoded as
+base64 data URIs. Everything is self-contained in one 15 MB HTML file.
+
+Open it the same way: `media-demo.html` in any browser. Same keyboard
+shortcuts apply (no presenter view or overview mode in this deck).
+
+## Live Demo (GitHub Pages)
+
+- Main deck: https://hexadecimoose.github.io/slidedown/slideshow.html
+- Media deck: https://hexadecimoose.github.io/slidedown/media-demo.html
+
+## File Sizes
+
+| File | Size | Contents |
+|------|------|----------|
+| `slideshow.html` | ~50 KB | Presentation engine + 10 POC slides |
+| `media-demo.html` | ~15 MB | Media deck with 4 embedded images + 1 video |
+
+No external dependencies of any kind.
